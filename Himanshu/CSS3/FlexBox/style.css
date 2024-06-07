@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "roboto",Arial, Helvetica Neue,;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    max-width: 800px;
+    min-height: 400px;
+}
+
+.box{
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 250px;
+}
+
+.box:nth-child(2){
+    flex: 2 2 250px;
+    order: 4;
+}

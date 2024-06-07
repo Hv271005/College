@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styler.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="resultbox" style="margin-left: 150px; width: 150px; height:70px; margin-bottom: 150px; margin-top: 45px;">
+
+          <span id="output">rgb(42, 244, 207)</span>
+        </div>
+    
+        <div class="sliders">
+          RED:
+          <input type="range" id="RED" value="42" min="0" max="255" oninput="colors()">
+          GREEN:
+          <input type="range" id="GREEN" value="244" min="0" max="255" oninput="colors()">
+          BLUE:
+          <input type="range" id="BLUE" value="207" min="0" max="255" oninput="colors()">
+        </div>
+      </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>

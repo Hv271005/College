@@ -1,0 +1,10 @@
+.copy-button{
+    justify-content: end;
+    top: 2px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    background: gray;
+    border-radius: 0.5em;
+
+}

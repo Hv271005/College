@@ -1,0 +1,20 @@
+*{
+    margin: 40px;
+    padding: 0;
+    font-family: poppins;
+    font-size: normal;
+    display: flex;
+}
+
+h1{
+    font-size: 96px;
+}
+
+p{
+    align-items: center;
+    width: 70%;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 48px;
+    word-spacing: 150px;
+}

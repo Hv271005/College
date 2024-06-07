@@ -1,0 +1,49 @@
+p{
+    color: yellow;
+    background-color: blue;
+}
+
+#ide{
+    color: red;
+    background-color: green;
+}
+
+.cls{
+    color: peru;
+    background-color: black;
+}
+
+a[href="abc.com"] {
+    color: blue;
+    background-color: yellow;
+}
+
+a[href="xyz.id"] {
+    color: green;
+    background-color: gray;
+}
+
+b,i,u{
+    color: antiquewhite;
+    background-color: purple;
+}
+
+header h3, header p{
+    color: maroon;
+    background-color: yellowgreen;
+}
+
+article > p {
+    color: blueviolet;
+    background-color: turquoise;
+}
+
+article > main > p{
+    color: rgb(0, 238, 255);
+    background-color: rgb(250, 150, 135);
+}
+
+h6 + small + small + small{
+    color: gold;
+    background-color: indigo;
+}

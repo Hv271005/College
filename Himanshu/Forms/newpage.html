@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <label for="Quantity">Quantity</label>
+        <input type="number" name="Quantity" id="Quantity" min="0" max="100" step="10">
+        <br><br>
+        <label for="Volume">Volume(betweeen 101 to 199):</label>
+        <input type="range" name="Vol" id="inp" min="0" max="200" step="10">
+        <br>
+        <p>Value:<output id="value"></output></p>
+        <br>
+        <label for="Search">Search Google</label>
+        <input type="search" name="search" id="">
+        <br><br>
+        <label for="Phone Number">Enter your Phone Number :</label>
+        <input type="tel" name="telephone" id="">        
+        <br><br>
+        <label for="time">Select a time</label>
+        <input type="time" name="time" id="">
+        <br><br>
+        <label for="homepage">Add your homepage</label>
+        <input type="url" name="homepage" id="">
+        <br><br>
+        <label for="Week">Select a week</label>
+        <input type="week" name="week" id="">
+        <br><br>
+        <input type="button" value="Click me!" onclick="alert('HELLO WORLD')">
+    </form>
+
+    <form action="#" method="get">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>fiat</option>
+            <option value="audi">Audi</option>
+            <option value="fiat" selected>fiat</option>
+            <option value="audi">Audi</option>
+            <option value="fiat" selected>fiat</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+        <br><br>
+    </form>
+
+    <form action="#" method="get" oninput="x.value = parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" name="a" id="a" value="0"> 100+ <br>
+
+        <input type="number" name="b" id="b" value="50"> = <br>
+        
+       <output name = "x" for="a b"></output>
+       <br><br>
+    </form>
+
+</body>
+</html>
