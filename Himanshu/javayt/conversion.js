@@ -21,3 +21,16 @@ let stringNumber = String(someNumber)
 
 console.log(stringNumber);
 console.log(typeof(stringNumber))
+
+let str1 = "Hello"
+let str2 = " Himanshu"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1"+2+2)
+
+let ab = 1+2+"3"
+console.log(ab)
+ console.log(typeof(ab))
+console.log(1+2+"3")
+console.log(2+3*4%5)
